@@ -10766,7 +10766,7 @@ h5,
 
 .hero-wrap {
 	width: 100%;
-	height: 100%;
+	height: 700px;
 	position: inherit;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -11647,7 +11647,8 @@ h5,
 .appointment .form-control {
 	border: transparent;
 	background: #fff !important;
-	color: rgba(0, 0, 0, 0.8) !important;
+	/* color: rgba(0, 0, 0, 0.8) !important; */
+	color: #495057 !important;
 	font-size: 14px;
 	font-weight: 500;
 	border-radius: 5px;
