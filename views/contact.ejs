@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('partials/head.ejs') %>
+	</head>
+	<body>
+		<%- include('partials/header.ejs') %> <%- include('partials/navbar.ejs') %>
+
+		<section class="ftco-section bg-light">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12">
+						<div class="wrapper">
+							<div class="row no-gutters">
+								<div class="col-md-7 d-flex">
+									<div class="contact-wrap w-100 p-md-5 p-4">
+										<h3 class="mb-4">Get in touch</h3>
+										<form action="/contactus" class="contact_form">
+											<div class="row">
+												<div class="col-md-6 form-group">
+													<label for="fname">First Name</label>
+													<input
+														name="fname"
+														type="text"
+														class="form-control form-control-lg"
+														id="fname"
+														data-rule="minlen:4"
+														data-msg="Please enter at least 4 characters"
+													/>
+													<div class="validate"></div>
+												</div>
+												<div class="col-md-6 form-group">
+													<label for="lname">Last Name</label>
+													<input
+														name="lname"
+														type="text"
+														class="form-control form-control-lg"
+														id="lname"
+														data-rule="minlen:4"
+														data-msg="Please enter at least 4 characters"
+													/>
+													<div class="validate"></div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12 form-group">
+													<label for="email">Email</label>
+													<input
+														name="email"
+														type="email"
+														class="form-control form-control-lg"
+														id="email"
+														data-rule="email"
+														data-msg="Please enter a valid email address"
+													/>
+													<div class="validate"></div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12 form-group">
+													<label for="message">Write Message</label>
+													<textarea
+														name="message"
+														id="message"
+														class="form-control form-control-lg"
+														cols="30"
+														rows="3"
+													></textarea>
+													<div class="validate"></div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="ml-3 mb-3">
+													<div class="loading">Loading</div>
+													<div class="error-message"></div>
+													<div class="sent-message">
+														Thank you. Our team will call you soon!
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-7 col-lg-6 col-sm-6 form-group">
+													<input
+														type="submit"
+														value="Send Message"
+														class="btn btn-primary"
+													/>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-5 d-flex align-items-stretch">
+									<div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+										<h3 class="mb-4 mt-md-4">Contact us</h3>
+										<div class="dbox w-100 d-flex align-items-start">
+											<div
+												class="icon d-flex align-items-center justify-content-center"
+											>
+												<span class="fa fa-map-marker"></span>
+											</div>
+											<div class="text pl-3">
+												<p>
+													<span>Address:</span> 198 West 21th Street, Suite 721
+													New York NY 10016
+												</p>
+											</div>
+										</div>
+										<div class="dbox w-100 d-flex align-items-center">
+											<div
+												class="icon d-flex align-items-center justify-content-center"
+											>
+												<span class="fa fa-phone"></span>
+											</div>
+											<div class="text pl-3">
+												<p>
+													<span>Phone:</span>
+													<a href="tel:919989583474">+91 9989583474</a>
+												</p>
+											</div>
+										</div>
+										<div class="dbox w-100 d-flex align-items-center">
+											<div
+												class="icon d-flex align-items-center justify-content-center"
+											>
+												<span class="fa fa-paper-plane"></span>
+											</div>
+											<div class="text pl-3">
+												<p>
+													<span>Email:</span>
+													<a href="mailto:doorstep.repair@gmail.com"
+														>doorstep.repair@gmail.com</a
+													>
+												</p>
+											</div>
+										</div>
+										<div class="dbox w-100 d-flex align-items-center">
+											<div
+												class="icon d-flex align-items-center justify-content-center"
+											>
+												<span class="fa fa-globe"></span>
+											</div>
+											<div class="text pl-3">
+												<p>
+													<span>Website:</span>
+													<a href="http://doorstep.repair.com/"
+														>doorstep.repair.com</a
+													>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Google MAP -->
+					<!-- <div class="col-md-12">
+						<div id="map" class="map"></div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<%- include('partials/footer.ejs') %> <%- include('partials/scripts.ejs') %>
+	</body>
+</html>
