@@ -4542,7 +4542,7 @@ input[type='button'].btn-block {
 .navbar-brand {
 	display: inline-block;
 	padding-top: 0.3125rem;
-	padding-bottom: 0.3125rem;
+	padding-bottom: 1rem;
 	margin-right: 1rem;
 	font-size: 1.25rem;
 	line-height: inherit;
@@ -10766,7 +10766,7 @@ h5,
 
 .hero-wrap {
 	width: 100%;
-	height: 700px;
+	height: 100%;
 	position: inherit;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -11317,8 +11317,8 @@ h5,
 @media (max-width: 991.98px) {
 	.bg-intro .intro-box {
 		width: 100%;
-		padding-left: 20px;
-		padding-right: 20px;
+		/* padding-left: 20px;
+		padding-right: 20px; */
 	}
 }
 .bg-intro .intro-box h2 {
