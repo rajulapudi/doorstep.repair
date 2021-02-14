@@ -10,7 +10,14 @@
 			>
 				<span class="subheading">Booking an Appointment</span>
 				<!-- <h2 class="mb-4">Free Consultation</h2> -->
-				<form action="#" class="appointment">
+				
+					<form
+					class="appointment"
+					id="appointmentForm"
+					name="appointmentForm"
+					action="#"
+					onsubmit="sendWAMsg();return false"
+				  >
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
@@ -19,7 +26,7 @@
 										<div class="icon">
 											<span class="fa fa-chevron-down"></span>
 										</div>
-										<select name="" id="" class="form-control">
+										<select name="service" id="" class="form-control">
 											<option value="">Select services</option>
 											<option value="">Washing Machine Repair</option>
 											<option value="">AC Service & Repair</option>
@@ -36,6 +43,7 @@
 							<div class="form-group">
 								<input
 									type="text"
+									name="name"
 									class="form-control"
 									placeholder="Your Name"
 								/>
@@ -44,7 +52,8 @@
 						<div class="col-md-6">
 							<div class="form-group">
 								<input
-									type="text"
+									type="number"
+									name="mobile"
 									class="form-control"
 									placeholder="Mobile number"
 								/>
@@ -58,6 +67,7 @@
 									</div>
 									<input
 										type="text"
+										name="date"
 										class="form-control appointment_date"
 										placeholder="Date"
 									/>
@@ -72,6 +82,7 @@
 									</div>
 									<input
 										type="text"
+										name="time"
 										class="form-control appointment_time"
 										placeholder="Time"
 									/>
@@ -81,22 +92,21 @@
 						<div class="col-md-12">
 							<div class="form-group">
 								<textarea
-									name=""
+									name="message"
 									id=""
 									cols="30"
-									rows="7"
+									rows="3"
 									class="form-control"
-									placeholder="Brand & Problem"
+									placeholder="Please share the brand name and the problem"
 								></textarea>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<input
-									type="submit"
-									value="Send message"
-									class="btn btn-dark py-3 px-4"
-								/>
+								<button type="submit" class="btn btn-dark py-3">
+									<i class="fa fa-whatsapp fa" aria-hidden="true"></i>
+									Send Message
+								  </button>
 							</div>
 						</div>
 					</div>

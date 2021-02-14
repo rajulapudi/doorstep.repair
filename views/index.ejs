@@ -61,5 +61,19 @@
 		<%- include('partials/footer.ejs') %>
 		<!-- Scripts -->
 		<%- include("partials/scripts.ejs") %>
+		<script>
+			function sendWAMsg() {
+			  let service = document.appointmentForm.service.value;
+			  let name = document.appointmentForm.name.value;
+			  let mobile = document.appointmentForm.mobile.value;
+			  let date = document.appointmentForm.date.value;
+			  let time = document.appointmentForm.time.value;
+			  let message = document.appointmentForm.message.value;
+			  window.open(
+				`https://api.whatsapp.com/send/?phone=919989583474&text=Hi%2C%20I%20am%20looking%20for%20repair%20services%20for%20${service}%20on%20${date}%20-%20${time}.%20Details%20%3A%20${message}.%20Thanks%20${name}`,
+				"_blank"
+			  );
+			}
+		  </script>
 	</body>
 </html>
