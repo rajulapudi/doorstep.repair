@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Washig Machine",
+        "services": [
+            "Washing Machine won't spin",
+            "Washing Machine stops mid cycle",
+            "Washing Machine fills slowly",
+            "Washing Machine leaking water",
+            "Washing Machine won't start",
+            "Washing Machine is making a loud noise",
+            "Washing Machine won't agitate",
+            "Washing Machine won't drain ",
+            "Washing Machine vibrating or shaking",
+            "Washing Machine won't spin or agitate",
+            "Washing Machine overflowing"
+        ]
+    },
+    {
+        "name": "Refrigerator",
+        "services": [
+            "Temperature irregularities",
+            "Freezing/ Frost buildup",
+            "Noisy",
+            "Damaged condenser coils",
+            "Electrical issues",
+            "Faulty thermostat",
+            "Leaks or puddles inside",
+            "And many more"
+        ]
+    }
+]
