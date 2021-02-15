@@ -12714,3 +12714,10 @@ textarea.form-control {
 		stroke-dashoffset: -136px;
 	}
 }
+
+
+@media (max-width: 1000px) {
+	.nomobile {
+	  display: none;
+	}
+  }
