@@ -1,4 +1,5 @@
 <section
+	id="bookAppointment"
 	class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img"
 	style="background-image: url(images/bg_3.jpg)"
 	id="appointment"
@@ -27,14 +28,20 @@
 										<div class="icon">
 											<span class="fa fa-chevron-down"></span>
 										</div>
-										<select name="service" id="" class="form-control">
+										<select name="service" id="service" class="form-control">
 											<option value="">Select services</option>
-											<option value="">Washing Machine Repair</option>
-											<option value="">AC Service & Repair</option>
-											<option value="">Refrigerator Repair</option>
-											<option value="">Water Purifier Service</option>
-											<!-- <option value="">Change Tire</option>
-											<option value="">Tow Truck</option> -->
+											<option value="Washing Machine Repair">
+												Washing Machine Repair
+											</option>
+											<option value="AC Service & Repair">
+												AC Service & Repair
+											</option>
+											<option value="Refrigerator Repair">
+												Refrigerator Repair
+											</option>
+											<option value="Water Purifier Service">
+												Water Purifier Service
+											</option>
 										</select>
 									</div>
 								</div>
@@ -43,6 +50,7 @@
 						<div class="col-md-6">
 							<div class="form-group">
 								<input
+									name="name"
 									type="text"
 									name="name"
 									class="form-control"
