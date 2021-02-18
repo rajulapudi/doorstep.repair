@@ -215,9 +215,9 @@ figure {
 }
 
 img {
-	/* vertical-align: middle; */
-	vertical-align: super;
-	border-style: none;
+  /* vertical-align: middle; */
+  vertical-align: super;
+  border-style: none;
 }
 
 svg {
@@ -576,22 +576,22 @@ pre code {
   margin-left: auto;
 }
 @media (min-width: 576px) {
-	.container {
-		/* max-width: 540px; */
-		max-width: 660px;
-	}
+  .container {
+    /* max-width: 540px; */
+    max-width: 660px;
+  }
 }
 @media (min-width: 768px) {
-	.container {
-		/* max-width: 720px; */
-		max-width: 816px;
-	}
+  .container {
+    /* max-width: 720px; */
+    max-width: 816px;
+  }
 }
 @media (min-width: 992px) {
-	.container {
-		/* max-width: 960px; */
-		max-width: 988px;
-	}
+  .container {
+    /* max-width: 960px; */
+    max-width: 988px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -10770,9 +10770,8 @@ h5,
 
 .hero-wrap {
   width: 100%;
-  height: 100%;
   position: inherit;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
   position: relative;
@@ -11344,11 +11343,13 @@ h5,
 .bg-intro .intro-box .icon {
   width: 50px;
   height: 50px;
+  padding: 10px;
+  margin-left: 10px;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .bg-intro .intro-box .icon i {
-  font-size: 24px;
+  font-size: 36px;
   color: #fff;
 }
 .bg-intro .btn-custom {
@@ -12731,13 +12732,17 @@ textarea.form-control {
 }
 
 @media (max-width: 1000px) {
-	.nomobile {
-		display: none;
-	}
+  .nomobile {
+    display: none;
+  }
 }
 
 /* custom css */
 
 .rounded_img {
-	border-radius: 15px;
+  border-radius: 15px;
+  height: 250px;
+}
+.img-cont {
+  text-align: center;
 }
