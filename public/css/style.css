@@ -4552,6 +4552,11 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
+@media screen and (max-width:768px){
+  .navbar-brand{
+    padding-top: 30px;
+  }
+}
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -10794,6 +10799,11 @@ h5,
 .hero-wrap.hero-wrap-2 {
   height: 500px;
 }
+@media screen and (max-width:768px){
+  .hero-wrap{
+    height: 1000px;
+  }
+}
 .hero-wrap.hero-wrap-2 .overlay {
   opacity: 0.5;
 }
@@ -10911,6 +10921,7 @@ h5,
   z-index: 0;
 }
 
+
 .owl-carousel.home-slider .slider-item {
   background-size: cover;
   background-repeat: no-repeat;
@@ -10920,6 +10931,7 @@ h5,
   z-index: 0;
   overflow: hidden;
 }
+
 .owl-carousel.home-slider .slider-item .overlay {
   position: absolute;
   top: 0;
@@ -11128,12 +11140,12 @@ h5,
 .owl-carousel:hover .owl-nav .owl-next {
   right: -25px;
 }
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .owl-carousel.home-slider {
-    height: 150px;
+    height: 380px;
   }
   .owl-carousel.home-slider .slider-item {
-    height: 150px !important;
+    height: 380px !important;
   }
 }
 .owl-custom-nav {
@@ -12745,4 +12757,57 @@ textarea.form-control {
 }
 .img-cont {
   text-align: center;
+}
+.appointement{
+  position: fixed; 
+  right:0.5%;
+   top:2%;
+    z-index:4;
+     float:right;
+      border-radius: 10px;
+      background-color: black;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: 800;
+}
+.phn-bg{
+  background-color: black;border-radius: 100px;width: 120px;height: 120px;display: flex;align-items: center;justify-content: center; position: fixed; top: 75%;left:0%; z-index:4; float:right;
+}
+.call{
+  width: 80px;
+  height: 80px;
+}
+.boxes{
+  background-color: black;
+  display: flex;
+  align-items: center;
+   width: auto
+   ;height: 100%;
+   margin-bottom: 10px;
+   padding: 25px;
+}
+.logo{
+  width:60px;height: 60px;
+}
+@media screen and (max-width:768px){
+  .phn-bg{
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+  }
+  .call{
+    width: 50px;
+    height: 50px;
+  }
+  .appointement{
+    top:2%;
+    padding:5px
+  }
+  .boxes{
+    height: 120px;
+    width:auto;
+    padding: 5px;
+  }.logo{
+    margin-top: 30px;
+  }
 }
