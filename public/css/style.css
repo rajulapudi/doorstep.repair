@@ -12771,7 +12771,7 @@ textarea.form-control {
       font-weight: 800;
 }
 .phn-bg{
-  background-color: black;border-radius: 100px;width: 120px;height: 120px;display: flex;align-items: center;justify-content: center; position: fixed; top: 75%;left:0%; z-index:4; float:right;
+  background-color: #f79f24;border-radius: 100px;width: 120px;height: 120px;display: flex;align-items: center;justify-content: center; position: fixed; top: 75%;left:0%; z-index:4; float:right;
 }
 .call{
   width: 80px;
