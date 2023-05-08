@@ -4554,7 +4554,7 @@ input[type="button"].btn-block {
 }
 @media screen and (max-width:768px){
   .navbar-brand{
-    padding-top: 30px;
+    padding-top: 65px;
   }
 }
 .navbar-brand:hover,
@@ -12761,7 +12761,19 @@ textarea.form-control {
 .appointement{
   position: fixed; 
   right:0.5%;
-   top:2%;
+   top:1%;
+    z-index:4;
+     float:right;
+      border-radius: 10px;
+      background-color: black;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: 800;
+}
+.to-call{
+  position: fixed; 
+  right:0.5%;
+   top:9%;
     z-index:4;
      float:right;
       border-radius: 10px;
@@ -12789,6 +12801,10 @@ textarea.form-control {
 .logo{
   width:60px;height: 60px;
 }
+.nav-bar-phn{
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (max-width:768px){
   .phn-bg{
     border-radius: 50px;
@@ -12800,7 +12816,7 @@ textarea.form-control {
     height: 50px;
   }
   .appointement{
-    top:2%;
+    top:1%;
     padding:5px
   }
   .boxes{
@@ -12808,6 +12824,10 @@ textarea.form-control {
     width:auto;
     padding: 5px;
   }.logo{
-    margin-top: 30px;
+    margin-top: 60px;
+  }
+  .to-call{
+  top:8%;
+    padding: 5px;
   }
 }
